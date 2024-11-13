@@ -5,7 +5,7 @@ import plotly as plt
 
 # Cargar los datos una sola vez (si no está cargado en la sesión)
 if 'car_data' not in st.session_state:
-    st.session_state.car_data = pd.read_csv(r'D:\ProyectosPY\Sprint7\Proyecto\Proyecto_7\vehicles_us.csv')
+    st.session_state.car_data = pd.read_csv(r'vehicles_us.csv')
 car_data = st.session_state.car_data
 
 # Título principal
